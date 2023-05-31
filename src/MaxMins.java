@@ -2,14 +2,15 @@ import java.util.Scanner;
 
 // 현탁: MAX 값 작성, 아라: MIN 값 작성
 public class MaxMins {
-        // 두 숫자 중 최댓값을 구하는 메서드
-        public static int getMax(int num1, int num2) {
-            return Math.max(num1, num2);
-        }
-        public static int getMin(int num1, int num2) {
-            return Math.min(num1, num2);
-        }
-    
+    // 두 숫자 중 최댓값을 구하는 메서드
+    public static int getMax(int num1, int num2) {
+        return Math.max(num1, num2);
+    }
+
+    public static int getMin(int num1, int num2) {
+        return Math.min(num1, num2);
+    }
+
     public static void main(String[] args) {
         Scanner myObj = new Scanner(System.in); // Create a Scanner object
         try {
