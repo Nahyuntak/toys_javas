@@ -4,6 +4,9 @@ public class PollsWithMethod {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
+        // PollInitailArrays  = new PollInitailArrays(); // no param
+        // PollScanners  = new PollScanners(); //
+
         System.out.println("> 이름을 입력하세요");
         System.out.print("이름) ");
         String name = scanner.nextLine();
@@ -41,12 +44,6 @@ public class PollsWithMethod {
         System.out.println();
         System.out.println("---------------설문 결과---------------");
         
-
-        for (int first = 0; first < answers.length; first++) {
-            if (first != 0) {
-                System.out.print(", ");
-            }
-            System.out.printf("%d. (%s)", first + 1, answers[first]);
-        }
+        PollStatistics pollStats= new PollStatistics();
     }
 }
