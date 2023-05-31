@@ -7,6 +7,7 @@ public class MaxMins {
         return Math.max(num1, num2);
     }
 
+    // 두 숫자 중 최솟값을 구하는 메서드
     public static int getMin(int num1, int num2) {
         return Math.min(num1, num2);
     }
