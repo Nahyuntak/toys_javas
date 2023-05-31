@@ -20,7 +20,7 @@ public class MaxMins {
             int num2 = myObj.nextInt(); // 두 번째 숫자 입력
 
             int max = getMax(num1, num2); // getMax 메서드를 호출하여 max 값을 구함
-            int min = getMin(num1, num2); // getMikn 메서드를 호출하여 min 값을 구함
+            int min = getMin(num1, num2); // getMin 메서드를 호출하여 min 값을 구함
 
             System.out.println("두 숫자 중 최댓값은 " + max + "입니다.");
             System.out.println("두 숫자 중 최솟값은 " + min + "입니다.");
