@@ -2,14 +2,15 @@ public class PollScanners {
   
  
 
-    public int [] answer(int A) {
+    public int [] reply(int A) {
         PollsWithMethod pollswithmethod = new PollsWithMethod();
         PollScanners pollscanners = new PollScanners();
-        int [] result = pollswithmethod.answer();
+        int[] result = new int[4];
+        
 
 
-        answer[] = result [a];
-        return result;
+
+        return reply;
     }
 
     public String result(int B) {
