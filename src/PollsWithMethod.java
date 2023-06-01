@@ -12,6 +12,7 @@ public class PollsWithMethod {
         System.out.println("> 이름을 입력하세요");
         System.out.print("이름) ");
         String name = scanner.nextLine();
+        System.out.println();
 
         // 문항 호출 from poll/PollInitailArrays.java
         String[] questions = PollInitailArrays.getQuestions();
