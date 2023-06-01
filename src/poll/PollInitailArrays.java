@@ -1,8 +1,8 @@
 package poll;
 
+// 문항 메서드
 public class PollInitailArrays {
     public static String[] getQuestions() {
-        // 질문 
         String[] questions = {
                 "1. 교수는 수업 전 강의 목표를 명확히 제시하였습니까?",
                 "2. 강의의 내용은 체계적이고 성의있게 구성되었는가?",
