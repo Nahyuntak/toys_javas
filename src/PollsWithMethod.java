@@ -1,12 +1,4 @@
 import java.util.Scanner;
-
-import poll.PollStatistics;
-import poll.PollInitailArrays;
-import poll.PollScanners;
-
-
-
-import java.util.Scanner;
 import poll.PollInitailArrays;
 import poll.PollScanners;
 import poll.PollStatistics;
